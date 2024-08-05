@@ -22,7 +22,7 @@ const mergeTwoArrays = (nums1, m, nums2, n) => {
     }
 }
 
-let nums1 = [1, 2, 3, 0, 0, 0];
-let nums2 = [2, 5, 6];
-mergeTwoArrays(nums1, 3, nums2, 3);
-console.log(nums1);
+let Input1 = [1, 2, 5];
+let Input2 = [2, 4, 6];
+mergeTwoArrays(Input1, 3, Input2,3);
+console.log(Input1);
